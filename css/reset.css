@@ -1,0 +1,144 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.containerList{
+	margin:123px 0 0 291px;
+}
+.containerList h1{
+	letter-spacing: 0.2em;
+	margin:0 0 24px 0;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.containerList h1:hover{
+	letter-spacing: 0.5em;
+	margin:0 0 24px 0;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.containerList h1:active{
+	letter-spacing: 1.5em;
+	margin:0 0 24px 0;
+	text-transform: lowercase;
+	font-size: 14px;
+}
+
+.containerList ul {
+	font-size: 20px;
+}
+.containerList ul li:first-child{
+	text-decoration: line-through;
+}
+.containerList ul li:first-child:hover{
+	text-decoration: none;
+}
+.containerList ul li:nth-child(2){
+	font-weight: 700;
+}
+.containerList ul li:nth-child(2):hover{
+	font-weight: 400;
+	background:url("../img/icons/check_icon_95.png")0 0px/contain no-repeat;
+	background-size: 20px;
+	color: red;
+	
+}
+
+.containerList ul li:nth-child(3){
+	font-style: italic;
+}
+.containerList ul li:nth-child(3):hover{
+	font-style: normal;
+}
+
+.containerList ul li:last-child{
+	text-transform: uppercase;
+}
+.containerList ul li:last-child:hover{
+	text-transform: capitalize;
+}
+
+
+
+.containerList ul li{
+background:url("../img/icons/check_icon_37.png")0 0px/contain no-repeat;
+background-size: 20px;
+padding: 0 0 13px 33px;
+}
+.containerList button{
+	width: 199px;
+	height: 44px;
+	color:white;
+	background-color: rgba(128,183,179,0.54);
+	border-radius: 12px;
+	box-shadow: 0px 10px 40px 12px; 
+	letter-spacing: 0.2em;
+	text-transform: uppercase; 
+	border-radius: 25px;
+}
+.containerList button:hover{
+	width: 199px;
+	height: 44px;
+	color:white;
+	background-color: #3a5856;
+	border-radius: 12px;
+	box-shadow: 0px 10px 50px 42px; 
+	letter-spacing: 0.2em;
+	text-transform: uppercase; 
+	border-radius: 25px;
+}
+.containerList button:active{
+	width: 199px;
+	height: 44px;
+	color:white;
+	background-color: #818181;
+	border-radius: 12px;
+	box-shadow: 0px 10px 50px 42px; 
+	letter-spacing: 0.2em;
+	text-transform: uppercase; 
+	border-radius: 25px;
+}
+
+.containerList input{
+	border: 1px solid #000;
+	font-size: 20px;
+	width: 294px;
+	height: 52px;
+}
+.containerList input:focus{
+width: 294px;
+height: 52px;
+border: 1px solid #7fbed5;
+box-shadow: 0px 0px 20px -1px rgba(127,190,213,0.93);
+}
+
+.containerList a{
+	color:white;
+	}
+.containerList a:visited{
+	color:red;
+	}
+	.containerList a:active{
+		color:black;
+		}
+		.containerList a:hover{
+			color:blue;
+			text-decoration: underline;
+			}
+		
